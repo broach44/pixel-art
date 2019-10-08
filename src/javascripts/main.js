@@ -1,4 +1,10 @@
+import grid from './components/grid/grid';
+
 import 'bootstrap';
 import '../styles/main.scss';
 
-console.log('hi');
+const init = () => {
+  grid.makeGrid();
+};
+
+init();
